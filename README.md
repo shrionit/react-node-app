@@ -1,4 +1,4 @@
-# rest_api
+# REACT NODE APP
 
 A React Node App DEMO
 
