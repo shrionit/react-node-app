@@ -6,7 +6,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "nodemon server/index.js"
+    "start": "nodemon server/index.js",
+    "build": "yarn install && nodemon server/index.js && (cd client && yarn install && yarn dev)"
   },
   "dependencies": {
     "axios": "^0.27.2",
